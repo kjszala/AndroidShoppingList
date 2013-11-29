@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ShoppingList</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_menu_string">Main Menu</string>
+    <string name="bar_code_name">Bar Code name</string>
+    <string name="button_delete_bar_code">Delete</string>
+    <string name="button_create_new_list_data_base">Create new list</string>
+    <string name="button_browse_existing_data_base">Browse existing list</string>
+    <string name="button_browse_bar_code_data_base">Browse barcode database</string>
+    <string name="button_add_new_bar_code">Add new barcode</string>
+    <string name="button_scan">Scan!</string>
+    <string name="title_activity_browse_bar_code_data_base">BarCode database</string>
+    <string name="title_activity_browse_existing_list_data_base">Existing shopping list</string>
+    <string name="title_activity_create_new_list_data_base">Create new shopping list</string>
+    <string name="title_activity_add_new_bar_code">AddNewBarCode</string>
+
+</resources>

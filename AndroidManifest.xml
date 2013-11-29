@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shoppinglist"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.shoppinglist.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.shoppinglist.BrowseBarCodeDataBaseActivity"
+            android:label="@string/title_activity_browse_bar_code_data_base"
+            android:parentActivityName="com.examlpe.shoppinglist.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.examlpe.shoppinglist.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.shoppinglist.BrowseExistingListDataBaseActivity"
+            android:label="@string/title_activity_browse_existing_list_data_base"
+            android:parentActivityName="com.example.shoppinglist.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.shoppinglist.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.shoppinglist.CreateNewListDataBaseActivity"
+            android:label="@string/title_activity_create_new_list_data_base"
+            android:parentActivityName="com.example.shoppinglist.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.shoppinglist.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.shoppinglist.AddNewBarCode"
+            android:label="@string/title_activity_add_new_bar_code"
+            android:parentActivityName="com.example.sjoppinglist.BrowseBarCodeDataBaseActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sjoppinglist.BrowseBarCodeDataBaseActivity" />
+        </activity>
+    </application>
+
+</manifest>
